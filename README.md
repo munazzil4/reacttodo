@@ -5,16 +5,18 @@ Clone the project by running the command below:
 
 then run:
 
-`composer install`
+`composer install --ignore-platform-reqs`
 
 `npm install`
 
-rename `.env.example` to `.env`
+copy `.env.example` to `.env`
+
+Fill db with local.
+
 then run:
 
 `php artisan key:generate`
 
-then fill your database details in your .env file
 
 now you can run migrations:
 
